@@ -29,7 +29,7 @@ class FlutterSmsPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   }
 
   override fun onDetachedFromActivity() {
-    activity = null
+    activity = null,
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
